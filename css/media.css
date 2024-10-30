@@ -1,0 +1,168 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*common start*/
+	.c_pb {
+        padding-bottom: 55px;
+}
+    /*common end*/
+	/*header start*/
+    .logo {
+        font-size: 25px;
+    }
+	.menu ul li a {
+       padding: 0 !important;
+}
+	.btn_dd {
+       padding: 5px 15px;
+       width: 230px;
+}
+  .s_icon {
+    margin: 10px 10px;
+}
+	.btn_dd[data-bs-popper] {
+    top: -5px;
+    left: 35px;
+}
+
+	/*header end*/
+	/*banner start*/
+	.slider {
+        margin: 120px 0 100px;
+}
+	.b_h2 {
+        font-size: 30px;
+        text-align: center;
+    .btn_load {
+    	width: 140px;
+    }
+}
+	/*banner end*/
+	/*about start*/
+	.ab_text {
+        padding: 45px 0 0;
+}
+    .ab_p1 {
+    padding: 15px 0;
+}
+	/*about end*/
+	/*portfolio start*/
+	.ser_h2 {
+       padding: 20px 0 15px;
+}
+	.pf_menu {
+        padding-top: 20px;
+ }       
+
+	.pf_menu ul li a {
+            padding: 5px;
+      }      
+	/*portfolio end*/
+	/*advantage start*/
+	.advantage_item {
+		    padding-top: 30px;
+           text-align: center;
+}       
+	/*advantage end*/
+	
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*common start*/
+	.c_pb {
+        padding-bottom: 80px;
+}
+	/*common end*/
+	/*header start*/
+	.logo {
+        font-size: 28px;
+}
+	.menu ul li a {
+    padding: 5px 0px 0 !important;
+}
+	.btn_dd {
+        padding: 5px 15px;
+        width: 300px;
+}
+	.btn_dd[data-bs-popper] {
+        top: -10px;
+        left: 60px;
+}
+	/*header end*/
+	/*banner start*/
+	.slider {
+        margin: 170px 0 100px;
+}
+	.b_h2 {
+        font-size: 45px;
+}
+	/*banner end*/
+	/*about start*/
+	.ab_text {
+        padding: 45px 0 0;
+}
+    .ab_p1 {
+    padding: 15px 0;
+}
+	/*about end*/
+	/*portfolio start*/
+	.pf_menu {
+        padding-top: 20px;
+ }       
+
+	.pf_menu ul li a {
+            padding: 5px;
+      }      
+	/*portfolio end*/
+	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*common start*/
+	.c_pb {
+        padding-bottom: 85px;
+}
+	/*common end*/
+	/*header start*/
+	.menu ul li a {
+    padding: 10px 15px 0 !important;
+}
+	.btn_dd[data-bs-popper] {
+    top: -10px;
+    left: 60px;
+}
+	/*header end*/
+	/*about start*/
+	.ab_text {
+        padding: 45px 0 0;
+}
+	/*about end*/
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ 
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){
+	/*about start*/
+	.about_img img {
+            height: 351px;
+}
+	/*about end*/
+}
+
+/* Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px){
+	
+	/*about start*/
+	.about_img img {
+            height: 351px;
+}
+	/*about end*/
+
+	
+}
